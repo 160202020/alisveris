@@ -1,5 +1,5 @@
 <?php
-namespace kouosl\product\models;
+namespace 160202020\alisveris\models;
 
 use Yii;
 
