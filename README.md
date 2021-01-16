@@ -56,5 +56,4 @@ Modülün yüklenmesinin ardından kullanıcı ve yönetici panellerinin çalı�
     - Sayfanın üst kısmında: Admin panelinden eklenebilen ürünlerden mevcut olarak var olan(stokta olan) ürünler,
     - Sayfanın alt kısmında: Kullanıcın kendi alışveriş sepeti listelenir.
  - Alışveriş sepetinin kişiye özgü olması için user tablosundan username değeri çekilmektedir.
- - Modül içi dil dönüşümleri için messages/tr-TR dizini içinde product.php dosyası ayarlanmıştır. 
   
