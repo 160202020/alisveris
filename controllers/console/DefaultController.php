@@ -1,11 +1,11 @@
 <?php
-namespace kouosl\product\controllers\console;
+namespace 160202020\alisveris\controllers\console;
 
 
 /**
  * Default controller for the `Product` module
  */
-class DefaultController extends \kouosl\base\controllers\console\BaseController
+class DefaultController extends \160202020\base\controllers\console\BaseController
 {
     /**
      * Renders the index view for the module
