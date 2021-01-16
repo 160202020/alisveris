@@ -1,11 +1,11 @@
 <?php
-namespace kouosl\product\controllers\frontend;
-use kouosl\product\models\Product;
-use kouosl\product\models\ProductSearch;
-use kouosl\product\models\ProductList;
-use kouosl\product\models\HamperSearch;
-use kouosl\product\models\Hamper;
-use kouosl\user\models\User;
+namespace 160202020\alisveris\controllers\frontend;
+use 160202020\alisveris\models\Product;
+use 160202020\alisveris\models\ProductSearch;
+use 160202020\alisveris\models\ProductList;
+use 160202020\alisveris\models\HamperSearch;
+use 160202020\alisveris\models\Hamper;
+use 160202020\user\models\User;
 use Yii;		
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -14,7 +14,7 @@ use yii\base\Models;
 /**
  * Default controller for the `Product` and 'Hamper' modules
  */
-class DefaultController extends \kouosl\base\controllers\frontend\BaseController
+class DefaultController extends \160202020\base\controllers\frontend\BaseController
 {
      /**
      * {@inheritdoc}
