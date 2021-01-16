@@ -1,10 +1,10 @@
 
-# portal-product( Ürün Modülü)
+# Alisveris( Alisveris Modülü)
 
 
 ### Kurulum
 
-Portal Product modülünü, portal web uygulamasına eklemek için /portal dizininde bulunan composer.json dosyasına gidilerek, aşağıdaki kod parçaları repositories ve require kısımlarına eklenir. Portal dizininde composer update işlemi yapılarak modül yüklenir.
+Portal alisveris modülünü, portal web uygulamasına eklemek için /portal dizininde bulunan composer.json dosyasına gidilerek, aşağıdaki kod parçaları repositories ve require kısımlarına eklenir. Portal dizininde composer update işlemi yapılarak modül yüklenir.
 
         ....
         "repositories": [
@@ -12,13 +12,13 @@ Portal Product modülünü, portal web uygulamasına eklemek için /portal dizin
                 ....
                 {
                     "type": "vcs",
-                    "url": "https://github.com/2021-BLM317/portal-160202020.git"
+                    "url": "https://github.com/160202020/alisveris.git"
                 }
         ],
         "require": {
 
             ....   
-            "kouosl/portal-product": "dev-master"
+            "160202020/alisveris": "dev-master"
         },
       ....
   
@@ -28,8 +28,8 @@ Ardından Frontend ve Backend için portal klasöründe  portal\frontend\config 
 ```
 'modules' => [
        ...
-     'product' => [
-            'class' => 'kouosl\product\Module',
+     'alisveris' => [
+            'class' => '160202020\alisveris\Module',
         ],
 
    ],
@@ -39,13 +39,13 @@ Ardından Frontend ve Backend için portal klasöründe  portal\frontend\config 
 
 Modülün yüklenmesinin ardından kullanıcı ve yönetici panellerinin çalışması için gerekli olan "product" ve "hamper" isimli veritabanı tabloları, modülün migrations klasörü içerisinde bulunmaktadır. Migrate işlemi için altta bulunan kod parçasının portal dizininde çalıştırılması gerekmektedir.
 
-    php yii migrate --migrationPath=@vendor/kouosl/portal-product/migrations --interactive=0
+    php yii migrate --migrationPath=@vendor/160202020/alisveris/migrations --interactive=0
     
 
 
 ## Panel Görünümleri
 
- - Kullanıcı Paneli => [http://portal.kouosl.product](http://portal.kouosl/product)
+ - Kullanıcı Paneli =>
 ![product](https://user-images.githubusercontent.com/58732895/72112016-7a905880-334d-11ea-81d2-da4c2a049092.png)
 ![AddHamper](https://user-images.githubusercontent.com/58732895/72112716-706f5980-334f-11ea-9f0f-c6c955e562c2.png)
 
