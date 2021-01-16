@@ -50,13 +50,11 @@ Modülün yüklenmesinin ardından kullanıcı ve yönetici panellerinin çalı�
 ![AddHamper](https://user-images.githubusercontent.com/58732895/72112716-706f5980-334f-11ea-9f0f-c6c955e562c2.png)
 
  
- - Admin Paneli => [http://portal.kouosl/admin/product](http://portal.kouosl/admin/product)
-![admin_product](https://user-images.githubusercontent.com/58732895/72112276-2afe5c80-334e-11ea-8440-2ae70cef9e9e.png)
+ 
 ## Notlar
  - Kullanıcı paneli açıldığında;
     - Sayfanın üst kısmında: Admin panelinden eklenebilen ürünlerden mevcut olarak var olan(stokta olan) ürünler,
     - Sayfanın alt kısmında: Kullanıcın kendi alışveriş sepeti listelenir.
  - Alışveriş sepetinin kişiye özgü olması için user tablosundan username değeri çekilmektedir.
- - Admin panelinde ürün bilgileri  görüntülenebilir; güncelleme, silme ve yeni ürün oluşturma işlemleri yapılabilir.
  - Modül içi dil dönüşümleri için messages/tr-TR dizini içinde product.php dosyası ayarlanmıştır. 
   
