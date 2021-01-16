@@ -1,9 +1,9 @@
 <?php
-namespace kouosl\product\controllers\backend;
+namespace 160202020\alisveris\controllers\backend;
 
-use kouosl\product\models\Hamper;
-use kouosl\product\models\Product;
-use kouosl\product\models\ProductSearch;
+use 160202020\alisveris\models\Hamper;
+use 160202020\alisveris\models\Product;
+use 160202020\alisveris\models\ProductSearch;
 use Yii;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -11,7 +11,7 @@ use yii\filters\VerbFilter;
 /**
  * Default controller for the `Product` module
  */
-class DefaultController extends \kouosl\base\controllers\backend\BaseController
+class DefaultController extends \160202020\base\controllers\backend\BaseController
 {
      /**
      * {@inheritdoc}
