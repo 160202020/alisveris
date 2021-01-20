@@ -1,0 +1,18 @@
+{
+    "name": "160202020/alisveris",
+    "description": "Sample module for 160202020",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "product", "module", "modules"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Özcan Acar",
+            "email": "ozcannacarr1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "160202020\\product\\": ""
+        }
+    }
+}
